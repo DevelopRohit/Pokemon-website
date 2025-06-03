@@ -596,7 +596,7 @@ footer{
 @media screen and (max-width:700px) {
     li{
         width: 150px;
-        height: 46vh;
+        height: 56vh;
     }
 }
 @media screen and (max-width:700px) {
@@ -614,6 +614,7 @@ footer{
     border-radius: 10px;
     width: 40px;
     height: 5px;
+    display:none;
     }
 
 
@@ -625,6 +626,7 @@ footer{
     left: 200px;
     border-radius: 10px;
     width: 40px;
+    display:none;
     height: 5px;
     }
 #goods::after{
@@ -636,6 +638,7 @@ footer{
     border-radius: 10px;
     width: 40px;
     height: 5px;
+    display:none;
 }
     #apps::after{
     content: "";
@@ -646,6 +649,7 @@ footer{
     border-radius: 10px;
     width: 40px;
     height: 5px;
+    display:none;
     }
 
 
@@ -658,6 +662,7 @@ footer{
     border-radius: 10px;
     width: 40px;
     height: 5px;
+    display:none;
 }
 
 }
