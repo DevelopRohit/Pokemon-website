@@ -584,7 +584,7 @@ footer{
 }
 @media screen and (max-width:700px) {
     .date{
-        margin-top: 90px;
+        margin-top: 110px;
     }
 
 }
@@ -596,7 +596,7 @@ footer{
 @media screen and (max-width:700px) {
     li{
         width: 150px;
-        height: 56vh;
+        height: 46vh;
     }
 }
 @media screen and (max-width:700px) {
