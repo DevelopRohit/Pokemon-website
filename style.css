@@ -7,17 +7,7 @@ main{
     background-color: gainsboro;
 }
 
-@media screen and (max-width:700px) {
 
-    .header-contents{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-    .pokedex-wrap{
-        margin-inline: auto;
-    }
-}
 header{
     background-color: rgb(255, 255, 255);
 }
@@ -245,25 +235,6 @@ main{
 
 
 
-@media screen and (max-width:700px){
-    .comercial_banner{
-        min-height: 330px;
-    }
-
-
-        .banner .quiz{
-            width: 350px;
-            margin-left: 72px;
-        }
-    
-         .banner .kindtube{
-            width: 350px;
-            position: relative;
-            left: 0px;
-            top: 20px;
-        }
-    
-}
 
 .kindtube{
     height: 150px;
@@ -310,26 +281,14 @@ span img {
     height: 25px;
     padding: 2px;
 }
-@media screen and (max-width:700px) {
-    span img{
-        height: 35px;
-        padding: 5px;
-    }
-}
  li{
     background-color: white;
     width: 300px;
-    height: 55vh;
+    height: 70vh;
     list-style: none;
     border-radius: 10px;
 }
 
-@media screen and (max-width:700px) {
-    li{
-        width: 150px;
-        height: 46vh;
-    }
-}
 h4{
     font-family: sans-serif;
     padding: 5px;
@@ -339,11 +298,6 @@ h4{
     width: 300px;
 }
 
-@media screen and (max-width:700px) {
-    .list_img{
-        width: 150px;
-    }
-}
 hr{
     background-color: #03A9F4;
     height: 5px;
@@ -382,12 +336,6 @@ p{
     margin: 10px;
 }
 
-@media screen and (max-width:700px) {
-    .date{
-        margin-top: 90px;
-    }
-
-}
 
 
 ul{
@@ -399,20 +347,6 @@ ul{
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
-@media screen and (max-width:700px) {
-    ul{
-        grid-template-columns: repeat(2, 1fr);
-
-    }
-
-    .under_list{
-        height: 350px;
-    }
-
-    .date1{
-        margin-top: 90px;
-    }
-}
 
 .date1{
     color: var(--apps);
@@ -422,13 +356,6 @@ ul{
     margin: 10px;
 }
 
-@media screen and (max-width:700px) {
-    .date1{
-        margin-top: 50px;
-    }
-
-    
-}
 
 .date2{
     color: var(--event);
@@ -447,21 +374,6 @@ ul{
 }
 
 
-@media screen and (max-width:700px) {
-
-
-    .date2{
-        margin-top: 50px;
-    }
-
-    li .date3{
-        margin-top: 50px;
-    }
-    
-    li .date6{
-        margin-top: 90px;
-    }
-}
 
 
 .date3{
@@ -520,20 +432,9 @@ ul{
     display: inline-block;
     margin-top: 6%;
 }
-
-@media screen and (max-width:700px) {
-    .account_head{
-        margin-top: 20px;
-    }
-}
 footer{
     background-color: black;
     height: 120px;
-}
-@media screen and (max-width:700px) {
-    footer{
-        height: 200px;
-    }
 }
 .policy{
     height: 0px;
@@ -571,6 +472,54 @@ footer{
     margin-right: 5vw;
     font-family: sans-serif;
 }
+.india:hover{
+    cursor: pointer;
+    background-color: #38687e;
+    transition:background-color 0.3s all ease;
+    font-family: sans-serif;
+}
+
+.comment{
+    color: #795548;
+    font-family: sans-serif;
+    text-align: start;
+    margin: 10px;
+}
+
+/* start media query */
+
+
+@media screen and (max-width:700px) {
+
+    .header-contents{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .pokedex-wrap{
+        margin-inline: auto;
+    }
+}
+
+@media screen and (max-width:700px){
+    .comercial_banner{
+        min-height: 330px;
+    }
+
+
+        .banner .quiz{
+            width: 350px;
+            margin-left: 72px;
+        }
+    
+         .banner .kindtube{
+            width: 350px;
+            position: relative;
+            left: 0px;
+            top: 20px;
+        }
+    
+}
 @media screen and (max-width:700px) {
     .india{
         color: white;
@@ -586,16 +535,73 @@ footer{
     
     }
 }
-.india:hover{
-    cursor: pointer;
-    background-color: #38687e;
-    transition:background-color 0.3s all ease;
-    font-family: sans-serif;
+@media screen and (max-width:700px) {
+    footer{
+        height: 200px;
+    }
 }
 
-.comment{
-    color: #795548;
-    font-family: sans-serif;
-    text-align: start;
-    margin: 10px;
+@media screen and (max-width:700px) {
+    .account_head{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:700px) {
+
+
+    .date2{
+        margin-top: 50px;
+    }
+
+    li .date3{
+        margin-top: 50px;
+    }
+
+    
+    li .date6{
+        margin-top: 90px;
+    }
+}
+@media screen and (max-width:700px) {
+    .date1{
+        margin-top: 50px;
+    }
+    
+}
+@media screen and (max-width:700px) {
+    ul{
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .under_list{
+        height: 350px;
+    }
+
+    .date1{
+        margin-top: 90px;
+    }
+}
+@media screen and (max-width:700px) {
+    .date{
+        margin-top: 90px;
+    }
+
+}
+@media screen and (max-width:700px) {
+    .list_img{
+        width: 150px;
+    }
+}
+@media screen and (max-width:700px) {
+    li{
+        width: 150px;
+        height: 46vh;
+    }
+}
+@media screen and (max-width:700px) {
+    span img{
+        height: 35px;
+        padding: 5px;
+    }
 }
