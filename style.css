@@ -604,4 +604,60 @@ footer{
         height: 35px;
         padding: 5px;
     }
+
+    #anime::after{
+    content: "";
+    background-color: #03A9F4;
+    position: absolute;
+    bottom: 5px;
+    left: 19px;
+    border-radius: 10px;
+    width: 40px;
+    height: 5px;
+    }
+
+
+    #movies::after{
+    content: "";
+    background-color:var(--movie);
+    position: absolute;
+    bottom: 5px;
+    left: 200px;
+    border-radius: 10px;
+    width: 40px;
+    height: 5px;
+    }
+#goods::after{
+    content: "";
+    background-color:var(--goods);
+    position: absolute;
+    bottom: 5px;
+    left: 390px;
+    border-radius: 10px;
+    width: 40px;
+    height: 5px;
+}
+    #apps::after{
+    content: "";
+    background-color:var(--apps);
+    position: absolute;
+    bottom: 5px;
+    left: 570px;
+    border-radius: 10px;
+    width: 40px;
+    height: 5px;
+    }
+
+
+    #events::after{
+    content: "";
+    background-color:var(--event);
+    position: absolute;
+    bottom: 5px;
+    left: 740px;
+    border-radius: 10px;
+    width: 40px;
+    height: 5px;
+}
+
 }
