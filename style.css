@@ -379,12 +379,12 @@ p{
     font-family: sans-serif;
     text-align: end;
     font-weight: bolder;
-    margin: 20px;
+    margin: 10px;
 }
 
 @media screen and (max-width:700px) {
     .date{
-        margin-top: 70px;
+        margin-top: 90px;
     }
 
 }
@@ -419,7 +419,7 @@ ul{
     font-family: sans-serif;
     text-align: end;
     font-weight: bolder;
-    margin: 20px;
+    margin: 10px;
 }
 
 @media screen and (max-width:700px) {
@@ -469,7 +469,7 @@ ul{
     font-family: sans-serif;
     text-align: end;
     font-weight: bolder;
-    margin: 20px;
+    margin: 10px;
 }
 
 
