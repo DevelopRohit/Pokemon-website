@@ -499,6 +499,9 @@ footer{
     .pokedex-wrap{
         margin-inline: auto;
     }
+    p{
+        font-size:10 px;
+    }
 }
 
 @media screen and (max-width:700px){
